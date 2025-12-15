@@ -1,39 +1,80 @@
-# superstore-sales-analytics
-End-to-end sales analytics project using Excel, Python, PostgreSQL, and Power BI
+📊 Superstore Sales Analytics Dashboard
+📌 Project Overview
 
-# Superstore Sales Analytics Dashboard
+This project is an end-to-end sales analytics solution built to analyze retail performance across regions, categories, and customers.
+The goal was to transform raw sales data into actionable business insights using modern analytics tools.
 
-## 📊 Project Overview
-This project analyzes multi-year retail sales data to uncover trends, profitability drivers, and customer insights. 
-It demonstrates an end-to-end data analytics workflow from data cleaning and database integration to interactive dashboarding.
+The project simulates a real client workflow: data cleaning, database integration, analysis, and interactive reporting.
 
-## 🎯 Business Objectives
-- Track sales, profit, quantity, and profit margin performance
-- Identify top-performing products and customers
-- Analyze profitability across categories and sub-categories
-- Understand regional sales distribution
-- Explain key drivers influencing sales performance
+🎯 Business Objectives
 
-## 🛠 Tools & Technologies
-- Excel — data cleaning and preprocessing
-- Python (Pandas) — data ingestion and error handling
-- PostgreSQL — relational database storage
-- SQLAlchemy — database connectivity
-- Power BI — data modeling, DAX, and visualization
+Track overall sales, profit, margin, and quantity
 
-## 📈 Key Features
-- KPI tracking (Sales, Profit, Profit Margin, Quantity)
-- Sales trends and geographic analysis
-- Profit heatmap by category and sub-category
-- Decomposition tree for sales breakdown
-- Key influencers analysis for performance drivers
+Identify profitable and unprofitable product segments
 
-## 📂 Project Files
-- Power BI dashboard (.pbix)
-- SQL database schema
-- Python scripts for data import
-- Sample dataset
+Analyze sales performance by region and category
 
-## 🚀 Outcome
-Delivered a portfolio-ready analytics dashboard that demonstrates strong analytical thinking, SQL skills, and data storytelling using Power BI.
+Understand key drivers influencing total sales
 
+Enable interactive filtering for decision-makers
+
+🛠 Tools & Technologies
+
+Excel – Data cleaning and feature engineering
+
+Python (Pandas, SQLAlchemy) – Data import and ETL
+
+PostgreSQL – Relational database storage
+
+Power BI – Data modeling, DAX, and dashboard creation
+
+📈 Key Features
+
+KPI cards for Total Sales, Total Profit, Profit Margin %, and Quantity
+
+Monthly and yearly sales trends
+
+Profit heatmap (Category vs Sub-Category)
+
+Decomposition Tree for drill-down analysis
+
+Key Influencers visual to explain sales drivers
+
+Interactive slicers for Region, Category, and Year
+
+🖼 Dashboard Screenshots
+🔹 Dashboard Overview
+
+🔹 Profit Heatmap
+
+🔹 Decomposition Tree
+
+🔹 Key Influencers
+
+🧩 Project Structure
+superstore-sales-analytics/
+├── README.md
+├── Superstore_Sales_Analytics.pbix
+├── data/
+│   └── superstore_clean.csv
+├── scripts/
+│   └── import_to_postgres.py
+├── sql/
+│   └── schema.sql
+└── screenshots/
+
+🚀 Outcome
+
+This dashboard provides a clear, interactive view of business performance, helping stakeholders:
+
+Spot revenue opportunities
+
+Identify loss-making products
+
+Understand what factors drive sales growth
+
+The project demonstrates my ability to deliver client-ready analytics dashboards from raw data to final insights.
+
+📬 Contact
+
+If you’d like a custom Power BI dashboard, data cleaning, or reporting solution, feel free to reach out.
