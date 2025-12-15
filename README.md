@@ -51,18 +51,6 @@ Interactive slicers for Region, Category, and Year
 
 🔹 Key Influencers
 
-🧩 Project Structure
-superstore-sales-analytics/
-├── README.md
-├── Superstore_Sales_Analytics.pbix
-├── data/
-│   └── superstore_clean.csv
-├── scripts/
-│   └── import_to_postgres.py
-├── sql/
-│   └── schema.sql
-└── screenshots/
-
 🚀 Outcome
 
 This dashboard provides a clear, interactive view of business performance, helping stakeholders:
